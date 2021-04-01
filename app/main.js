@@ -1,9 +1,9 @@
-import CarsController from "./Controllers/CarsController.js";
+import ItemsController from "./Controllers/ItemsController.js";
 import HousesController from "./Controllers/HouseController.js";
 
 class App {
-  carsController = new CarsController();
-  housesController = new HousesController();
+  itemsController = new ItemsController();
+  //housesController = new HousesController();
 }
 
 window["app"] = new App();

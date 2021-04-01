@@ -22,7 +22,7 @@ export default class HousesController {
         // OH oh more magic. you still know.....
         // 1st argument is name of the property in the AppState to 'watch' for changes
         // 2nd argument: name of the function to run when 1st argument property changes
-        ProxyState.on('houses', _draw);
+        //ProxyState.on('houses', _draw);
 
         // manually run draw the on page load
         _draw()

@@ -43,7 +43,7 @@ export default class HousesController {
             // @ts-ignore
             sqFootage: form.sqFootage.value,
             // @ts-ignore
-            Address: form.adress.value,
+            Address: form.address.value,
             // @ts-ignore  this converts the string to a number
             price: Number(form.price.value)
         }

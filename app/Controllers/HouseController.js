@@ -37,18 +37,17 @@ export default class HousesController {
         //debugger
         let newHouse = {
             // @ts-ignore
-            bath: form.make.value,
+            imgUrl: form.imgUrl.value,
             // @ts-ignore
-            model: form.model.value,
+            bath: form.bath.value,
             // @ts-ignore
-            year: form.year.value,
+            sqFootage: form.sqFootage.value,
+            // @ts-ignore
+            Address: form.adress.value,
             // @ts-ignore  this converts the string to a number
-            price: Number(form.price.value),
-            // @ts-ignore
-            description: form.description.value,
-            // @ts-ignore
-            imgUrl: form.imgUrl.value
+            price: Number(form.price.value)
         }
+
         housesService.createHouse(newHouse)
 
         // @ts-ignore
@@ -58,8 +57,8 @@ export default class HousesController {
         $('#new-house-form').modal('hide')
     }
 
-    deleteCar(id) {
-        houseService.deleteHouse(id)
+    deleteHouse(id) {
+        housesService.deleteHouse(id)
     }
 
     bid(id) {

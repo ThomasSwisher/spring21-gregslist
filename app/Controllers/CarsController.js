@@ -34,7 +34,7 @@ export default class CarsController {
     window.event.preventDefault()
     // grab the element from html that triggered this event
     const form = window.event.target
-    debugger
+    // debugger
     let newCar = {
       // @ts-ignore
       make: form.make.value,

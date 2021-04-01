@@ -101,7 +101,11 @@
                             this can be triggered by the button or the enter key -->
                     <form onsubmit="app.housesController.createHouse()">
                         <div class="modal-body">
-                            <!-- Form to create a car  -->
+                            <!-- Form to create a house  -->
+                            <div class="form-group">
+                                <label for="imgUrl">Image Url</label>
+                                <input type="text" class="form-control" id="imgUrl" placeholder="Url...">
+                            </div>
                             <div class="form-group">
                                 <label for="bath">Bath</label>
                                 <!-- the id determines the property on the form object -->
@@ -120,14 +124,6 @@
                             <div class="form-group">
                                 <label for="price">Price</label>
                                 <input type="number" class="form-control" id="price" placeholder="Price...">
-                            </div>
-                            <div class="form-group">
-                                <label for="description">Description</label>
-                                <input type="text" class="form-control" id="description" placeholder="Description...">
-                            </div>
-                            <div class="form-group">
-                                <label for="imgUrl">Image Url</label>
-                                <input type="text" class="form-control" id="imgUrl" placeholder="Url...">
                             </div>
                         </div>
                         <div class="modal-footer">

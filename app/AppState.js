@@ -13,10 +13,10 @@ class AppState extends EventEmitter {
   ]
 
   houses = [
-    new House('', 3, 1350, '469 E Holly St Boise ID', '350,000', 'https://www.brightonhomes-idaho.com/2020/wp-content/uploads/2020/02/20200407_Arbor-02_retouched-1024x684.jpg'),
-    new House('', 3, 1350, '469 E Holly St Boise ID', '350,000', 'https://www.brightonhomes-idaho.com/2020/wp-content/uploads/2020/02/20200407_Arbor-02_retouched-1024x684.jpg'),
-    new House('', 3, 1350, '469 E Holly St Boise ID', '350,000', 'https://www.brightonhomes-idaho.com/2020/wp-content/uploads/2020/02/20200407_Arbor-02_retouched-1024x684.jpg'),
-    new House('', 3, 1350, '469 E Holly St Boise ID', '350,000', 'https://www.brightonhomes-idaho.com/2020/wp-content/uploads/2020/02/20200407_Arbor-02_retouched-1024x684.jpg'),
+    new House('https://www.brightonhomes-idaho.com/2020/wp-content/uploads/2020/02/20200407_Arbor-02_retouched-1024x684.jpg', 3, 1350, '469 E Holly St Boise ID', 350000),
+    new House('https://www.brightonhomes-idaho.com/2020/wp-content/uploads/2020/02/20200407_Arbor-02_retouched-1024x684.jpg', 3, 1350, '469 E Holly St Boise ID', 350000),
+    new House('https://www.brightonhomes-idaho.com/2020/wp-content/uploads/2020/02/20200407_Arbor-02_retouched-1024x684.jpg', 3, 1350, '469 E Holly St Boise ID', 350000),
+    new House('https://www.brightonhomes-idaho.com/2020/wp-content/uploads/2020/02/20200407_Arbor-02_retouched-1024x684.jpg', 3, 1350, '469 E Holly St Boise ID', 350000),
   ]
 }
 

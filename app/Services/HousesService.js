@@ -6,12 +6,12 @@ import House from "../Models/House.js";
 class HousesService {
     createHouse(newHouse) {
         debugger
-        let house = new House(newHouse.bath, newHouse.sqFootage, newHouse.address, newHouse.price, newHouse.imgUrl)
+        let house = new House(newHouse.imgUrl, newHouse.bath, newHouse.sqFootage, newHouse.address, newHouse.price)
         ProxyState.houses = [...ProxyState.houses, house]
     }
     bid(id) {
         // find the house
-        let house = ProxyState.houses = houses.find(house => house.id === id)
+        let house = ProxyState.houses.find(house => house.id === id)
         // make the change
         house.price += 100
 
@@ -25,7 +25,7 @@ class HousesService {
         // NOTE filter itterates over an array and only keeps things where the statement provided is true
         // here we remove the house with the id by only keeping houses that do not have that id
         // then we set the ProxyState array back to the result after the filter
-        ProxyState.Houses = ProxyState.houses.filter(house => house.id != id)
+        ProxyState.houses = ProxyState.houses.filter(house => house.id != id)
     }
 
 }

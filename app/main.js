@@ -1,4 +1,4 @@
-import ItemsController from "./Controllers/ItemsController.js";
+import ItemsController from "./Controllers/itemsController.js";
 import HousesController from "./Controllers/HouseController.js";
 
 class App {
